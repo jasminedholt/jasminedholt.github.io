@@ -1,2 +1,11 @@
-- default: menu_about
-  url: 'about'
+- title: "about"
+  url:   "about"
+
+- title: "shop/tattoo"
+  url:   "shop_tattoo"
+
+- title: "books"
+  url:   "books"
+
+- title: "more work"
+  url:   "more_work"
