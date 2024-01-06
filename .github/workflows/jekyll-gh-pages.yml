@@ -26,6 +26,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
       - name: Switch directory
         run: cd docs
       - name: Setup Ruby, JRuby and TruffleRuby
@@ -35,10 +39,6 @@ jobs:
           rubygems: 'default'
           bundler: true
           bundler-cache: false
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
