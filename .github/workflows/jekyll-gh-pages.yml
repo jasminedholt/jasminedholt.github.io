@@ -37,7 +37,8 @@ jobs:
         with:
           ruby-version: '2.7.4'
           rubygems: 'default'
-          bundler-cache: true
+      - name: Install contentblocks
+        run: gem install jekyll-contentblocks --no-document
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
