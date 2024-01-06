@@ -26,16 +26,19 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Switch directory
+        run: cd docs
+      - name: Setup Ruby, JRuby and TruffleRuby
+        uses: ruby/setup-ruby@v1.165.1
+        with:
+          ruby-version: '2.x'
+          rubygems: 'default'
+          bundler: true
+          bundler-cache: false
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v4
-      - name: Install Ruby
-      - uses: actions/setup-ruby
-        with:
-          ruby-version: '2.x'
-      - name: Install contentblocks
-        run: gem install jekyll-contentblocks --no-document
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
