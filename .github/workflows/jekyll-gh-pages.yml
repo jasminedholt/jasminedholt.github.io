@@ -30,10 +30,12 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v4
-      - name: Install Gems
-        run: |
-          ls
-          bundle install
+      - name: Install Ruby
+      - uses: actions/setup-ruby
+        with:
+          ruby-version: '2.x'
+      - name: Install contentblocks
+        run: gem install jekyll-contentblocks --no-document
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
