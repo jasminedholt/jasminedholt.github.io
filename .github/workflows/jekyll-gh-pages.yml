@@ -37,8 +37,7 @@ jobs:
         with:
           ruby-version: '2.7.4'
           rubygems: 'default'
-          bundler: 'true'
-          bundler-cache: 'false'
+          bundler-cache: true
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
