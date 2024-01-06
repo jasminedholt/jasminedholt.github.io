@@ -38,7 +38,9 @@ jobs:
           ruby-version: '2.7.4'
           rubygems: 'default'
       - name: Install contentblocks
-        run: gem install jekyll-contentblocks --no-document
+        run: |
+          gem install sass-embedded -v 1.54
+          gem install jekyll-contentblocks --no-document
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
