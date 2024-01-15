@@ -1,6 +1,3 @@
-# Output
-_site
-
 # Cache
 .sass-cache
 .jekyll-metadata
