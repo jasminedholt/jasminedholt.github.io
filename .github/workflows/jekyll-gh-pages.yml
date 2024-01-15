@@ -36,6 +36,8 @@ jobs:
         run: ls
       - name: Change directory
         run: cd docs
+      - name: Check dir
+        run: ls
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
