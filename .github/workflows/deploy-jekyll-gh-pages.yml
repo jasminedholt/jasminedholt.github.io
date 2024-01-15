@@ -21,7 +21,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Setup Pages and validate build.
+  # Setup Pages and validate build
   setup:
     runs-on: ubuntu-latest
     steps:
