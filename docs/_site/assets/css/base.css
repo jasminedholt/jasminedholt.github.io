@@ -149,6 +149,11 @@ a.reversefootnote {
   margin: 0 10px;
 }
 
+.header-active-nav-item {
+  font-weight: bold;
+  color: darkorange;
+}
+
 .footer-copyright {
   overflow: hidden;
 }
