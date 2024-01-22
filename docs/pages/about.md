@@ -1,27 +1,48 @@
 ---
 layout: columns
-title: About
+title: about
 permalink: /about/
 ---
 
 {% contentfor first-section %}
-<p align="center">
-  <img src="/assets/images/headshot.png" alt="It's me!"/>
-</p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia ligula turpis, at vulputate velit faucibus ut. Morbi sed sapien vitae ipsum lacinia scelerisque at in eros. Integer vestibulum rhoncus turpis, ac mattis ex fringilla et. Morbi euismod nulla ac nulla vehicula bibendum. Sed non eros erat. Nunc ornare dui eu iaculis gravida. Cras blandit, urna ac pulvinar ornare, orci dui sagittis felis, sit amet consectetur magna nisl vitae lacus. Vestibulum in placerat lacus.
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .imgbox {
+    display: grid;
+    height: 100%;
+  }
+  .center-fit {
+    max-width: 75%;
+    max-height: 100vh;
+    margin: auto;
+  }
+</style>
 
-Nulla varius ligula ut augue mattis, sit amet aliquet diam consequat. Etiam nec lorem sem. Integer lectus lacus, mollis in congue a, efficitur non tortor. Donec eget porta ex. Nunc tristique interdum tempor. Etiam dictum massa in velit feugiat, id facilisis felis lobortis. Sed sollicitudin ultrices neque, quis gravida metus lobortis a. Sed malesuada lobortis ante, a scelerisque magna interdum id. Morbi ullamcorper, nunc a cursus posuere, arcu nisl porttitor nisl, commodo suscipit eros ligula pharetra sapien. Cras in tellus sit amet eros tempus vulputate. Duis bibendum orci odio, in mattis risus posuere viverra.
+<div class="imgbox">
+    <img class="center-fit" src="/assets/images/about.png">
+</div>
 
-Sed semper orci dui, eu porta mauris condimentum vel. Nulla nec commodo ipsum. Curabitur auctor turpis metus. Quisque semper bibendum sollicitudin. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vivamus rhoncus viverra eros, sed sollicitudin quam viverra et. Sed ut dolor mattis, iaculis nisl in, condimentum leo. Nunc consectetur efficitur viverra. Nunc ut magna finibus, venenatis tortor id, scelerisque turpis.
+<!-- <p align="center">
+  <img src="/assets/images/about.png" alt="it's me!"/>
+</p> -->
 
 {% endcontentfor %}
 
 {% contentfor second-section %}
-<p align="center">
-	<embed src="https://www.arvindguptatoys.com/arvindgupta/lobel-frog-toad.pdf" width="750" height="800" 
- type="application/pdf">
-</p>
-{% endcontentfor %}
 
-[jekyll-paper]: https://github.com/ghosind/Jekyll-Paper
+<p style="line-height:1.8">
+nice to meet you! i am majoring in media studies & art at pomona college and take an intersectional approach to everything i study and create as a queer, korean american. whether it is through publishing, design, education, or any other means of production and outreach, i am passionate about uplifting individual voices and underrepresented communities with a focus on empathetic design and unconventional storytelling.
+<br/><br/>
+my c/v is linked below to view my past work experiences but feel free to explore this site to learn more about my personal endeavors and practices. outside of professional activities, you can find me foraging for different materials to make paper, dye, and tea. also, i enjoy reading creative fiction, playing the fiddle, and indulging in conversations with random strangers!
+<br/><br/>
+if you happen to be searching for a driven creative who is both independent and has strong collaboration skills, email me at <a href="mailto:jdha2021@mymail.pomona.edu"><span style="color:darkorange">jdha2021@mymail.pomona.edu</span></a> with any kind of inquiry! :)
+<br/><br/>
+
+<a href="{{ site.url }}/assets/docs/resume.jasmineholt.2024.pdf"><span style="color:darkorange; font-weight:bold">click here to view my c/v</span></a>
+</p>
+
+{% endcontentfor %}
