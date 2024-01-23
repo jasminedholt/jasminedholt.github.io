@@ -2,6 +2,8 @@
 layout: columns
 title: about
 permalink: /about/
+redirect_from:
+  - /
 ---
 
 {% contentfor first-section %}
@@ -25,10 +27,6 @@ permalink: /about/
 <div class="imgbox">
     <img class="center-fit" src="/assets/images/about.png">
 </div>
-
-<!-- <p align="center">
-  <img src="/assets/images/about.png" alt="it's me!"/>
-</p> -->
 
 {% endcontentfor %}
 
