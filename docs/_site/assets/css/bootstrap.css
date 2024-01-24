@@ -1,0 +1,9 @@
+a:not([class]) {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #aaa;
+}
