@@ -4,3 +4,6 @@
 
 # Gem lock file
 Gemfile.lock
+
+# Build
+_site
