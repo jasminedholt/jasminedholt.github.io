@@ -19,7 +19,7 @@ redirect_from:
   }
   .center-fit {
     max-width: 75%;
-    max-height: 100vh;
+    max-height: auto;
     margin: auto;
   }
 </style>

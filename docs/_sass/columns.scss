@@ -11,6 +11,8 @@
 .page-content {
   line-height: 20px;
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .page-content img {
@@ -19,6 +21,12 @@
 }
 
 .column {
-	flex: 50%;
+	flex: 25%;
 	margin: 25px;
+}
+
+@media screen and (max-width: 600px) {
+  .page-content {
+    flex-direction: column;
+  }
 }
