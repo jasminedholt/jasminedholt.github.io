@@ -194,6 +194,8 @@ a.reversefootnote {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  flex-grow: 1;
+  flex-shrink: 0;
 }
 
 .page-content img {
