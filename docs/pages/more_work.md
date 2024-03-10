@@ -1,7 +1,7 @@
 ---
 layout: page
 title: more work
-permalink: /more_work/
+permalink: /more-work/
 ---
 
 Jekyll Paper is a simple Jekyll theme, and it is aim to helping you to create your own blog by the easiest way.
