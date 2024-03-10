@@ -1,21 +1,31 @@
 ---
 layout: columns
 title: shop/tattoo
-permalink: /shop_tattoo/
+permalink: /shop-tattoo/
 ---
 
 {% contentfor first-section %}
+<style>
+
+.carousel-item img {  
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  height:50vh;
+}
+
+</style>
 
 <div id="carouselExample" class="carousel slide">
 	<div class="carousel-inner">
 		<div class="carousel-item active">
-		<img src="/assets/images/st1.png" class="d-block w-100" alt="...">
+			<img src="/assets/images/st1.png" class="d-block w-100" alt="...">
 		</div>
 		<div class="carousel-item">
-		<img src="/assets/images/st2.png" class="d-block w-100" alt="...">
+			<img src="/assets/images/st2.png" class="d-block w-100" alt="...">
 		</div>
 		<div class="carousel-item">
-		<img src="/assets/images/st3.png" class="d-block w-100" alt="...">
+			<img src="/assets/images/st3.png" class="d-block w-100" alt="...">
 		</div>
 	</div>
 	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
