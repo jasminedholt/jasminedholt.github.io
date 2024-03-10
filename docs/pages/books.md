@@ -1,16 +1,54 @@
 ---
-layout: page
+layout: columns
 title: books
 permalink: /books/
 ---
 
-Jekyll Paper is a simple Jekyll theme, and it is aim to helping you to create your own blog by the easiest way.
+{% contentfor first-section %}
+<style>
 
-You can find more information in [Jekyll Paper][jekyll-paper] or [Jekyll Paper for Github][jekyll-paper-github]. If you have any questions or suggestions, you can contact me in [Jekyll Paper Issues][jekyll-paper-issues], [Jekyll Paper for Github Issues][jekyll-paper-github-issues] or send email to [me](mailto:i@ghosind.com). 
+.carousel-item img {  
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  height:50vh;
+}
 
-Wish you enjoying your blog life!
+</style>
 
-[jekyll-paper]: https://github.com/ghosind/Jekyll-Paper
-[jekyll-paper-github]: https://github.com/ghosind/Jekyll-Paper-Github
-[jekyll-paper-issues]: https://github.com/ghosind/Jekyll-Paper/issues
-[jekyll-paper-github-issues]: https://github.com/ghosind/Jekyll-Paper-Github/issues
+<video controls muted height="500vh">
+  <source src="/assets/images/guia.webm" type="video/webm"/>
+</video>
+
+<!-- <div id="carouselExample" class="carousel slide">
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="/assets/images/guia.jpg" class="d-block w-100" alt="...">
+		</div>
+		<div class="carousel-item">
+		<video class="img-fluid">
+			<source src="/assets/images/guia.mov" type="video/mp4" alt="...">
+		</video>
+		</div>
+	</div>
+	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Previous</span>
+	</button>
+	<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Next</span>
+	</button>
+</div> -->
+
+{% endcontentfor %}
+
+{% contentfor second-section %}
+
+<p style="line-height:1.8">
+on the side, i run an asian american & queer-owned printmaking and hand-poked tattoo business with one of my dearest friends! if you are interested in booking tattoo appointments or finding out when/where we are selling next–both in-person and online–follow us on instagram <a href="https://www.instagram.com/haemipoke"><span style="color:darkorange; font-weight:bold">@haemipoke</span></a>
+<br/><br/>
+i also individually sell art to raise money for local efforts in the twin cities area as well as mutual aid! check the about me section and contact me if you need help raising funds. i will gladly check if i have any extra prints to sell!
+</p>
+
+{% endcontentfor %}
