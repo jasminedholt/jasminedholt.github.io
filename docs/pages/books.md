@@ -16,19 +16,15 @@ permalink: /books/
 
 </style>
 
-<video controls muted height="500vh">
-  <source src="/assets/images/guia.webm" type="video/webm"/>
-</video>
-
-<!-- <div id="carouselExample" class="carousel slide">
+<div id="carouselExample" class="carousel slide">
 	<div class="carousel-inner">
 		<div class="carousel-item active">
-			<img src="/assets/images/guia.jpg" class="d-block w-100" alt="...">
+			<video class="img-fluid" controls>
+				<source src="/assets/images/guia.webm" type="video/webm"/>
+			</video>
 		</div>
 		<div class="carousel-item">
-		<video class="img-fluid">
-			<source src="/assets/images/guia.mov" type="video/mp4" alt="...">
-		</video>
+			<img src="/assets/images/guia.jpg" class="d-block w-100" alt="...">
 		</div>
 	</div>
 	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -39,16 +35,16 @@ permalink: /books/
 		<span class="carousel-control-next-icon" aria-hidden="true"></span>
 		<span class="visually-hidden">Next</span>
 	</button>
-</div> -->
+</div>
 
 {% endcontentfor %}
 
 {% contentfor second-section %}
 
 <p style="line-height:1.8">
-on the side, i run an asian american & queer-owned printmaking and hand-poked tattoo business with one of my dearest friends! if you are interested in booking tattoo appointments or finding out when/where we are selling next–both in-person and online–follow us on instagram <a href="https://www.instagram.com/haemipoke"><span style="color:darkorange; font-weight:bold">@haemipoke</span></a>
+<span style="color:darkorange; font-weight:bold">growing up in appalachia</span>
 <br/><br/>
-i also individually sell art to raise money for local efforts in the twin cities area as well as mutual aid! check the about me section and contact me if you need help raising funds. i will gladly check if i have any extra prints to sell!
+( 6 x 6 inches, linocut, digital print, thread, cloth, handmade paper for the binding and colophon) a drum-leaf artist book that conveys the experience of being “othered” while growing up as a minority. i wanted to take a harmful experience and mold it into a light-hearted picture book for other people of color to connect with and find humor in.
 </p>
 
 {% endcontentfor %}
