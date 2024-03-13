@@ -20,6 +20,27 @@ permalink: /books/
   grid-area: desc2;
 }
 
+.book-carousel3 {
+  grid-area: carousel3;
+}
+.book-desc3 {
+  grid-area: desc3;
+}
+
+.book-carousel4 {
+  grid-area: carousel4;
+}
+.book-desc4 {
+  grid-area: desc4;
+}
+
+.book-carousel5 {
+  grid-area: carousel5;
+}
+.book-desc5 {
+  grid-area: desc5;
+}
+
 .wrapper {
   display: grid;
   gap: 20px;
@@ -27,7 +48,13 @@ permalink: /books/
     "carousel"
 	"desc"
 	"carousel2"
-	"desc2";
+	"desc2"
+	"carousel3"
+	"desc3"
+	"carousel4"
+	"desc4"
+	"carousel5"
+	"desc5";
 }
 
 @media (min-width: 500px) {
@@ -35,12 +62,22 @@ permalink: /books/
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
       "carousel		desc"
-	  "carousel2	desc2";
+	  "carousel2	desc2"
+	  "carousel3	desc3"
+	  "carousel4	desc4"
+	  "carousel5	desc5";
   }
 }
 
 .carousel-item img {  
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
+  overflow: hidden;
+  height:50vh;
+}
+
+.carousel-item video {  
+  object-fit: contain;
   object-position: center;
   overflow: hidden;
   height:50vh;
@@ -75,7 +112,7 @@ permalink: /books/
 		<p style="line-height:1.8">
 			<span style="color:darkorange; font-weight:bold">growing up in appalachia</span>
 			<br/><br/>
-			( 6 x 6 inches, linocut, digital print, thread, cloth, handmade paper for the binding and colophon) a drum-leaf artist book that conveys the experience of being “othered” while growing up as a minority. i wanted to take a harmful experience and mold it into a light-hearted picture book for other people of color to connect with and find humor in.
+			(6 x 6 inches, linocut, digital print, thread, cloth, handmade paper for the binding and colophon) a drum-leaf artist book that conveys the experience of being “othered” while growing up as a minority. i wanted to take a harmful experience and mold it into a light-hearted picture book for other people of color to connect with and find humor in.
 		</p>
 	</section>
 	<div class="book-carousel2">
@@ -120,6 +157,177 @@ permalink: /books/
 			</span>
 			<br/><br/>
 			the book depicts my umma reliving her life through multiple animals commonly associated with korean minhwa (folkart). being born in the year of the tiger, the overarching story is about how my umma has lived an incredible life in which she gained many stripes (scars) along the way to get to where she is now.
+		</p>
+	</section>
+	<div class="book-carousel3">
+		<div id="jing-carousel" class="carousel slide">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<video class="img-fluid" controls>
+						<source src="/assets/images/jing.webm" type="video/webm"/>
+					</video>
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/jing1.png" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/jing2.jpg" class="d-block w-100" alt="...">
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#jing-carousel" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#jing-carousel" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</div>
+	<section id="jing-desc" class="book-desc3">
+		<p style="line-height:1.8">
+			<span style="color:darkorange; font-weight:bold">joy in grief</span>
+			<br/><br/>
+			(5 x 6 inches, pressure print, digital print, thread, various fabric, handmade paper) a false accordion artist book inspired by listening to sufjan stevens’ album javelin, a journey about finding joy amidst grief and loss.
+			<br/><br/>
+			“i know relationships can be very difficult sometimes, but it’s always worth it to put in the hard work and care for the ones you love, especially the beautiful ones, who are few and far between. if you happen to find that kind of love, hold it close, hold it tight, savor it, tend to it, and give it everything you’ve got, especially in times of trouble. be kind, be strong, be patient, be forgiving, be vigorous, be wise, and be yourself. live every day as if it is your last, with fullness and grace, with reverence and love, with gratitude and joy. this is the day the lord has made. let us rejoice and be glad in it” (sufjan stevens, 2023).
+		</p>
+	</section>
+	<div class="book-carousel4">
+		<div id="uiaa-carousel" class="carousel slide">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="/assets/images/uiaa/uiaa-0.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/uiaa/uiaa-1.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/uiaa/uiaa-2.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/uiaa/uiaa-3.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/uiaa/uiaa-4.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/uiaa/uiaa-5.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/uiaa/uiaa-6.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/uiaa/uiaa-7.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/uiaa/uiaa-8.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/uiaa/uiaa-9.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/uiaa/uiaa-10.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/uiaa/uiaa-11.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/uiaa/uiaa-12.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/uiaa/uiaa-13.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/uiaa/uiaa-14.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/uiaa/uiaa-15.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/uiaa/uiaa-16.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/uiaa/uiaa-17.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/uiaa/uiaa-18.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/uiaa/uiaa-19.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/uiaa/uiaa-20.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/uiaa/uiaa-21.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/uiaa/uiaa-22.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/uiaa/uiaa-23.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/uiaa/uiaa-24.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/uiaa/uiaa-25.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/uiaa/uiaa-26.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/uiaa/uiaa-27.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/uiaa/uiaa-28.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/uiaa/uiaa-29.jpg" class="d-block w-100" alt="...">
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#uiaa-carousel" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#uiaa-carousel" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</div>
+	<section id="uiaa-desc" class="book-desc4">
+		<p style="line-height:1.8">
+			<span style="color:darkorange; font-weight:bold">umma is an artist</span>
+			<br/><br/>
+			a digital calendar containing some of my umma’s favorite recipes corresponding with fruits that taste best during each month! my umma has never been able to call herself an artist, but i have always thought of her as the greatest artist of all—one who is able to fill up any table with hard work, ease, and grace.
+		</p>
+	</section>
+	<div class="book-carousel5">
+		<div id="idiwac-carousel" class="carousel slide">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<video class="img-fluid" controls>
+						<source src="/assets/images/idiwac.webm" type="video/webm"/>
+					</video>
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#idiwac-carousel" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#idiwac-carousel" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</div>
+	<section id="idiwac-desc" class="book5-desc">
+		<p style="line-height:1.8">
+			<span style="color:darkorange; font-weight:bold">i dreamt i was a carp</span>
+			<br/><br/>
+			(6.5 x 4.5 inches, weaved yarn, hand-dyed cloth, rocks and shells from santa cruz, handmade paper for the colophon) an artist book that was purposefully created to be as tactile as possible and to replicate the surreal yet visceral experience of body dysmorphia. growing up nonbinary and queer, transforming into animals such as fish in my dreams became a constant reminder of how disconnected i felt from my body and gender identity. but truly, this book concept came about really because i find it funny that koreans–being very superstitious–say that it is terrible luck when you dream about turning into a carp.
 		</p>
 	</section>
 </div>
