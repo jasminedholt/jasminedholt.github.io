@@ -20,7 +20,7 @@ permalink: /books/
   grid-area: desc2;
 }
 
-.wrapper {
+/* .wrapper {
   display: grid;
   gap: 20px;
   grid-template-areas:
@@ -36,9 +36,8 @@ permalink: /books/
     grid-template-areas:
       "images	desc"
 	  "images2	desc2";
-}
   }
-}
+} */
 
 .carousel-item img {  
   object-fit: cover;
@@ -77,7 +76,7 @@ permalink: /books/
 			( 6 x 6 inches, linocut, digital print, thread, cloth, handmade paper for the binding and colophon) a drum-leaf artist book that conveys the experience of being “othered” while growing up as a minority. i wanted to take a harmful experience and mold it into a light-hearted picture book for other people of color to connect with and find humor in.
 		</p>
 	</section>
-	<div id="htgts-images" class="book-images2">
+	<!-- <div id="htgts-images" class="book-images2">
 		<div class="carousel-inner">
 			<div class="carousel-item active">
 				<img src="/assets/images/htgts1.jpg" class="d-block w-100" alt="...">
@@ -118,5 +117,5 @@ permalink: /books/
 			<br/><br/>
 			the book depicts my umma reliving her life through multiple animals commonly associated with korean minhwa (folkart). being born in the year of the tiger, the overarching story is about how my umma has lived an incredible life in which she gained many stripes (scars) along the way to get to where she is now.
 		</p>
-	</section>
+	</section> -->
 </div>
