@@ -4,13 +4,411 @@ title: more work
 permalink: /more-work/
 ---
 
-Jekyll Paper is a simple Jekyll theme, and it is aim to helping you to create your own blog by the easiest way.
+<style>
 
-You can find more information in [Jekyll Paper][jekyll-paper] or [Jekyll Paper for Github][jekyll-paper-github]. If you have any questions or suggestions, you can contact me in [Jekyll Paper Issues][jekyll-paper-issues], [Jekyll Paper for Github Issues][jekyll-paper-github-issues] or send email to [me](mailto:i@ghosind.com). 
+.book-carousel {
+  grid-area: carousel;
+}
+.book-desc {
+  grid-area: desc;
+}
 
-Wish you enjoying your blog life!
+.book-carousel2 {
+  grid-area: carousel2;
+}
+.book-desc2 {
+  grid-area: desc2;
+}
 
-[jekyll-paper]: https://github.com/ghosind/Jekyll-Paper
-[jekyll-paper-github]: https://github.com/ghosind/Jekyll-Paper-Github
-[jekyll-paper-issues]: https://github.com/ghosind/Jekyll-Paper/issues
-[jekyll-paper-github-issues]: https://github.com/ghosind/Jekyll-Paper-Github/issues
+.book-carousel3 {
+  grid-area: carousel3;
+}
+.book-desc3 {
+  grid-area: desc3;
+}
+
+.book-carousel4 {
+  grid-area: carousel4;
+}
+.book-desc4 {
+  grid-area: desc4;
+}
+
+.book-carousel5 {
+  grid-area: carousel5;
+}
+.book-desc5 {
+  grid-area: desc5;
+}
+
+.book-carousel6 {
+  grid-area: carousel6;
+}
+.book-desc6 {
+  grid-area: desc6;
+}
+
+.wrapper {
+  display: grid;
+  gap: 20px;
+  grid-template-areas:
+    "carousel"
+	"desc"
+	"carousel2"
+	"desc2"
+	"carousel3"
+	"desc3"
+	"carousel4"
+	"desc4"
+	"carousel5"
+	"desc5"
+	"carousel6"
+	"desc6";
+}
+
+@media (min-width: 500px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "carousel		desc"
+	  "carousel2	desc2"
+	  "carousel3	desc3"
+	  "carousel4	desc4"
+	  "carousel5	desc5"
+	  "carousel6	desc6";
+  }
+}
+
+.carousel-item img {  
+  object-fit: contain;
+  object-position: center;
+  overflow: hidden;
+  height:50vh;
+}
+
+.carousel-item video {  
+  object-fit: contain;
+  object-position: center;
+  overflow: hidden;
+  height:50vh;
+}
+
+</style>
+
+<div class="wrapper">
+	<div class="book-carousel">
+		<div id="iad-carousel" class="carousel slide">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="/assets/images/more-work/iad/design-1.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/iad/design-2.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/iad/design-3.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/iad/design-4.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/iad/design-5.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/iad/design-6.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/iad/design-7.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/iad/design-8.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/iad/design-9.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/iad/design-10.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/iad/design-11.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/iad/design-12.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/iad/design-13.jpeg" class="d-block w-100" alt="...">
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#iad-carousel" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#iad-carousel" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</div>
+	<section id="iad-desc" class="book-desc">
+		<p style="line-height:1.8">
+			<span style="color:darkorange; font-weight:bold">illustration & design</span>
+			<br/><br/>
+			my illustrations and 2d works maintain a childlike feeling through my experimental approach to creating. rooted in analog methods and collection, my graphics transform into digital formats using programs like adobe indesign, illustrator, and procreate. i believe keeping a portion of my work offline fosters a more human touch. drawing inspiration from colors—such as indigo blue for my ink textile-design mock-ups—and korean minhwa art with animals and nature-like imagery, i strive to abstractify korean minhwa and create my own oil pastel patterns and images, emanating a colorful yet emotive feel.
+		</p>
+	</section>
+	<div class="book-carousel2">
+		<div id="fiber-carousel" class="carousel slide">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="/assets/images/more-work/fiber/fiber-1.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/fiber/fiber-2.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/fiber/fiber-3.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/fiber/fiber-4.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/fiber/fiber-5.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/fiber/fiber-6.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/fiber/fiber-7.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/fiber/fiber-8.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/fiber/fiber-9.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/fiber/fiber-10.jpeg" class="d-block w-100" alt="...">
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#fiber-carousel" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#fiber-carousel" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</div>
+	<section id="fiber-desc" class="book-desc2">
+		<p style="line-height:1.8">
+			<span style="color:darkorange; font-weight:bold">fiber</span>
+			<br/><br/>
+			after attending workshops led by korean american papermakers in california and the midwest, i've immersed myself in the art of east asian papermaking, focusing particularly on <span style="font-weight:bold">hanji</span> techniques. i consistently employ handmade paper in my creative endeavors, crafting books and various fiber-based projects. continuously delving into the practice of <span style="font-weight:bold">yeomsaek</span>, traditional korean indigo-dyeing, i've been driven by research into the historical context of korean dye workers coerced into labor during japanese occupation. my exploration extends to utilizing materials with personal significance, leading me to gravitate towards artistic projects predominantly comprised of foraged and natural materials. earlier, i initiated a garden specifically cultivated for flowers utilized in solar-dyeing workshops conducted at silverwood's summer art camps. inspired by the empowerment of transcending functional mediums, i've embraced the challenge of transforming them into abstract and conceptual expressions. during my studies in fiber arts at pomona college, i gravitated towards creating larger statement pieces intended to visually capture concepts that defy linguistic explanation, such as <span style="font-weight:bold">han</span> (the korean term for collective grief or sorrow) and <span style="font-weight:bold">jeong</span> (the korean term for an ineffable connection to people and places).
+		</p>
+	</section>
+	<div class="book-carousel3">
+		<div id="painting-carousel" class="carousel slide">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="/assets/images/more-work/painting/painting-1.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/painting/painting-2.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/painting/painting-3.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/painting/painting-4.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/painting/painting-5.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/painting/painting-6.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/painting/painting-7.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/painting/painting-8.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/painting/painting-9.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/painting/painting-10.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/painting/painting-11.jpeg" class="d-block w-100" alt="...">
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#painting-carousel" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#painting-carousel" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</div>
+	<section id="painting-desc" class="book-desc3">
+		<p style="line-height:1.8">
+			<span style="color:darkorange; font-weight:bold">painting</span>
+			<br/><br/>
+			most of my painting works consist of oil and watercolor pieces inspired by nature and place due to being incredibly moved and motivated to make art centered around themes of home. i find myself unconsciously making attempts to both define home while simultaneously searching for a sense of belonging through practice and inner-reflection.
+		</p>
+	</section>
+	<div class="book-carousel4">
+		<div id="ctm-carousel" class="carousel slide">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="/assets/images/more-work/feeling-through-making/ctm-1.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/feeling-through-making/ctm-2.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/feeling-through-making/ctm-3.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/feeling-through-making/ctm-4.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/feeling-through-making/ctm-5.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/feeling-through-making/ctm-6.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/feeling-through-making/ctm-7.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/feeling-through-making/ctm-8.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/feeling-through-making/ctm-9.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/feeling-through-making/ctm-10.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/feeling-through-making/ctm-11.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/feeling-through-making/ctm-12.jpeg" class="d-block w-100" alt="...">
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#ctm-carousel" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#ctm-carousel" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</div>
+	<section id="ctm-desc" class="book-desc4">
+		<p style="line-height:1.8">
+			<span style="color:darkorange; font-weight:bold">feeling through making</span>
+			<br/><br/>
+			i believe that visual art is the most underrated language and should be utilized more in both personal practice and in classroom and work settings to aid in emotional processing while promoting more empathetic and accessible communication. during my internship at the benton museum of art, i developed and taught a mini lesson based on an exhibition of abstract (haiga) paintings inspired by haikus from macdonald wright. the lesson aimed to teach fourth-grade students how storytelling is a nonlinear process by reversing wright's creative making process. students were encouraged to create their own abstract pieces and write haiku poems based on their work. the paintings above are my own exploration of recreating how i feel as i tap into abstract senses and thoughts that i am unable to put into words.
+		</p>
+	</section>
+	<div class="book-carousel5">
+		<div id="printmaking-carousel" class="carousel slide">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="/assets/images/more-work/printmaking/printmaking-1.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/printmaking/printmaking-2.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/printmaking/printmaking-3.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/printmaking/printmaking-4.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/printmaking/printmaking-5.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/printmaking/printmaking-6.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/printmaking/printmaking-7.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/printmaking/printmaking-8.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/printmaking/printmaking-9.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/printmaking/printmaking-10.jpeg" class="d-block w-100" alt="...">
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#printmaking-carousel" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#printmaking-carousel" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</div>
+	<section id="printmaking-desc" class="book5-desc">
+		<p style="line-height:1.8">
+			<span style="color:darkorange; font-weight:bold">printmaking</span>
+			<br/><br/>
+			printmaking happens to be my favorite medium due to its wide range and endless possibilities with how it can be used for community care and storytelling. pictured above are a couple of examples of printmaking techniques i have learned and continue to experiment with. some types of printmaking i have extended experience with include: lino-cut, monotype, etching, intaglio, relief, risograph, and wood-cut.
+		</p>
+	</section>
+	<div class="book-carousel6">
+		<div id="photography-carousel" class="carousel slide">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="/assets/images/more-work/photography/photography-1.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/photography/photography-2.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/photography/photography-3.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/photography/photography-4.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/photography/photography-5.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/photography/photography-6.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/images/more-work/photography/photography-7.jpg" class="d-block w-100" alt="...">
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#photography-carousel" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#photography-carousel" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</div>
+	<section id="photography-desc" class="book6-desc">
+		<p style="line-height:1.8">
+			<span style="color:darkorange; font-weight:bold">photography</span>
+			<br/><br/>
+			(6 x 9 inch prints, 35 mm film) all of the photos are a part of a series of black and white portraits centered around photographing intimacy and expressing queerness in rural landscapes. most of my personal photography projects consist of portraits, and i especially enjoy finding unconventional means of capturing people’s lives and personifying space.
+		</p>
+	</section>
+</div>
