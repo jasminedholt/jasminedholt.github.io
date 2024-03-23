@@ -83,6 +83,31 @@ permalink: /books/
   height:50vh;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+height: 0px;
+width: 100px;
+outline: black;
+background-size: 100%, 100%;
+border-radius: 50%;
+background-image: none;
+}
+
+.carousel-control-prev-icon:after,
+.carousel-control-next-icon:after {
+font-weight:550;
+font-size: 40px;
+color: darkorange;
+}
+
+.carousel-control-next-icon:after {
+content: '>';
+}
+
+.carousel-control-prev-icon:after {
+content: '<';
+}
+
 </style>
 
 <div class="wrapper">
